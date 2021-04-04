@@ -10,8 +10,13 @@ gsap.to(".box", {
     }
 
 });
-gsap.to(".grey", { x: 750, duration: 3 });
 
+var animation = gsap.timeline();
+animation
+    .to(".christ", { y: -2200, duration: 3 })
 
+.to(".grey", { x: 750, duration: 3 })
 
-gsap.to(".christ", { y: -2700, duration: 3 });
+.to(".box", { y: 250, duration: 3 })
+
+;
