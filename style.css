@@ -1,0 +1,125 @@
+body {
+    background-image: linear-gradient(#fff, red);
+    position: relative;
+}
+
+body {
+    background-image: linear-gradient(#fff, red);
+}
+
+h1 {
+    color: cornsilk;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: coral;
+    opacity: 0.6;
+}
+
+.flex-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    position: relative;
+    height: 300px;
+    width: 200px;
+    padding: 0;
+    margin: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-shadow: 1px 1px white;
+    font-size: 30px;
+    border-radius: 50%;
+    box-shadow: 1px 2px grey;
+    opacity: 0.9;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.box:hover {
+    color: salmon;
+    cursor: pointer;
+}
+
+.orange {
+    background-color: oldlace;
+}
+
+.green {
+    background-color: turquoise;
+}
+
+.blue {
+    background-color: springgreen;
+    color: chocolate;
+}
+
+.red {
+    background-color: palevioletred;
+    color: cornsilk;
+}
+
+.skyblue {
+    background-color: powderblue;
+}
+
+.purple {
+    background-color: lavenderblush;
+    color: cornsilk;
+    text-shadow: 2px 2px black;
+}
+
+.pink {
+    background-color: pink;
+    transition: transform 2s;
+}
+
+.pink:hover {
+    transform: skewY(45deg);
+}
+
+.black {
+    background-color: lightcoral;
+}
+
+.aliceblue {
+    background-color: aliceblue;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.christ {
+    background-color: gold;
+}
+
+.teal {}
+
+.yellow {}
+
+.grey {}
+
+img {
+    height: 300px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+@media (max-width: 800px) {
+    .box {
+        width: 100px;
+        height: 200px;
+        font-size: inherit;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    img {
+        width: 100px;
+        height: 200px;
+        font-size: inherit;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
