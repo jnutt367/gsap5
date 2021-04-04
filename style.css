@@ -4,15 +4,15 @@ body {
 }
 
 body {
-    background-image: linear-gradient(#fff, red);
+    background-image: linear-gradient(green, lightcoral, yellow);
 }
 
 h1 {
-    color: cornsilk;
+    color: yellow;
     padding: 20px;
     border-radius: 15px;
-    background-color: coral;
-    opacity: 0.6;
+    background-color: pink;
+    opacity: 0.8;
 }
 
 .flex-wrap {
@@ -109,14 +109,15 @@ img {
 
 @media (max-width: 800px) {
     .box {
-        width: 100px;
+        text-align: center;
+        width: 150px;
         height: 200px;
         font-size: inherit;
         display: grid;
         grid-template-columns: 1fr;
     }
     img {
-        width: 100px;
+        width: 150px;
         height: 200px;
         font-size: inherit;
         display: grid;
